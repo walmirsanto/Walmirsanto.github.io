@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site css</title>
+
+    <style>
+         h2{
+            text-align: center;
+         }
+    </style>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="imagens/css.png" type="image/x-icon">
+</head>
+<body>
+    <h1>CSS - Cascading Style Sheets</h1>
+
+    <p> 
+        Documentos Css são utilizados para estilizar o conteudo de um documento HTML, ou seja , controla a apresentação de documentos de marcação <br>
+        O HTML controla a estrutura de uma pagina , ao passo que o CSS determina a sua aparencia. <br>
+        Vale lembra que essa folha de estilos pode esta no propio documento html , porem e visto como melhor pratica usarmo um documento a parti.
+    </p>
+    <h2>Como aplicar?</h2>
+        <p>
+            As regras do CSS podem ser aplicadas de três formas:
+
+            <ul>
+                <li> <strong>Inline: </strong> aplicados em um elemento html, dentro do documento </li>
+
+                <li> <strong>Incorporado: </strong> O elemento style permite aplica varias regras de uma vez no propio documento HTML </li>
+
+                <li> <strong> folha de estilos externa: </strong> Um documento com extensão .css permite aplica regras a um website inteiro de uma vez </li>
+            </ul>
+        </p>
+
+        <h2>Exemplo de uma regra CSS </h2>
+
+        <p>
+            Abaixo temos uma regra CSS que aplica três declarações: como mostrado Abaixo
+           <pre><code>
+            <br>
+            p{ 
+                text-align: center; 
+                color: yellow;
+                font-size: 20px; 
+              }
+           </code>
+        </pre>
+         olhando a estrutura do codigo acima temos o seguinte a unidade basica de construção , sendo composta por um seletor(alvo da regra) e de uma declaração(parametros de estilo) 
+         <br>
+         A declaração por sua vez , é composta por um par <strong> propriedade: valor</strong> pegando o exemplo acima seria a <strong>propriedade</strong> <u> text-align </u> e o <strong>valor</strong> <u> center;</u> 
+         <br> 
+        <ul> 
+            <li>Seletor: elemento p (regra aplicada a parágrafos)</li>
+            <li>declaração: text-align: center; color: yellow; font-size:20px</li>
+            <li>Propriedades: text-align, color e font-size</li>
+        </ul>
+        O exemplo acima de uma regra CSS indica que tudo oque estiver entre parenteses
+        será centralizado por isso a um <strong>text-align: center</strong> logo também tudo oque estive entre a tag p <br> tera a coloração amarela por definição do <strong>color: yellow;</strong> e sua fonte será de 20px por definição do <strong> font-size:20px</strong>.</p>
+               
+        <h3>Tipos de seletores </h3>
+        <p>
+         Esse exemplo que foi dado com o <strong>p</strong> antes dos colchetes e denominado de seletor de tipo , ja que vai representa somente um determinado elemento. Porém temos também o seletor universão que e simbolizado pelo *
+         ou seja  
+         <code>
+            <pre>
+                *{color:green;}
+            </pre>
+         </code>
+        significa que todos os elementos dessa pagína serão verdes.
+        Temos também os seletore de classes: na qual a sua função e aplica a elementos com atributos <strong> class </strong> definido <br>
+        Por exemplo
+        <code>
+            <pre>
+                .verde{color:green;} // aplica a cor verde para os elementos que possuem o atributo class="verde" 
+                h1.verde{color:green;}
+            </pre>
+        </code>
+        Seletor de ID: aplica estilo a elementos com atributos id definidos.
+        <code>
+            <pre>
+            #corAzul{color:blue;}
+            </pre>
+        </code>
+    </p>
+        
+    
+</body>
+</html>

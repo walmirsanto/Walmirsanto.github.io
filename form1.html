@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmes fav</title>
+</head>
+<body bgcolor="#808080">
+    <h1>Filmes favorito</h1>
+
+    <fieldset>
+        <legend> Seus Dados</legend>
+    <form action="form1.html" method="get" autocomplete="on">
+        <fieldset>
+            <legend> Dados </legend>
+        <div>
+            <label for="iusu"> Nome: </label>
+            <input type="text" name="usuario" id="iusu" required minlength="5" maxlength="14">
+        </div>
+
+       <div>
+        <label for="iemail">email: </label>
+        <input type="email" name="" id="iemail" required>
+       </div>
+
+        
+        </fieldset>
+         </div>
+         <fieldset>
+            <legend>Nascimento</legend>
+         <p> 
+            <label for="idata"> Data de nascimento</label>
+            <input type="date" name="data" id="idata" required="por favor insira uma data" size="26">
+       
+
+         </p>
+              <p>
+                 <p>Sexo</p> 
+                 
+                <input type="radio" name="sexo" id="idesc" value="0">Feminino
+
+                <input type="radio" name="sexo" id="icheck" value="1">Masculino
+              </p>
+
+        </fieldset>
+        <fieldset> 
+            <legend> Descrição do filme</legend>
+
+            <p>
+                <label for="ifilme">Nome do filme</label>
+                <input type="text" required minlength="8" maxlength="16" id="ifilme">
+            </p>
+             <p>
+                <label for="ifoto">foto do seu personagem favorito</label>
+                <input type="file" name="ifoto" id="ifoto">
+             </p>
+           
+
+       
+        <fieldset>
+        <legend>De sua opinião </legend>
+             <p>
+                <label for="irecla">Alguma critica sobre o filme?</label>
+                <input type="text" name="critica" id="irecla" size="100" placeholder="esse campo e opcional"><br>
+                
+             </p>
+        </fieldset>
+
+            <p>
+               <!--  <label for="submit"></label>-->
+                <input type="submit" value="Enviar" id="submit">
+
+             <!--   <label for="ireset"></label> -->
+                <input type="reset" value="reset">
+             </p>
+            
+           </fieldset>
+    </form>
+	   <p>
+		Ja que deu a sua opinião talvez queria fazer parte do nosso forúm e 
+         debater sobre as suas criticas acima com outra pessoas , para isso basta 
+		 se cadastra <a href="form2.html" target="_blanck">aqui</a> e debater sobre
+	   </p>
+</fieldset>
+</body>
+</html>
