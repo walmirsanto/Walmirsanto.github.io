@@ -7,17 +7,30 @@
   <title> Pagina 1 </title>
    <link rel="shortcut icon" href="imagens/favicon.png"> <!-- essa seguinte tag e que adiciona o icone a nossa pag -->
    <link rel="stylesheet" href="css/styleindex.css">
+
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
  </head>
 
- <body bgcolor="Silver">  <!-- tag bg color e que dar cor a pag -->
+ <body>  <!-- tag bg color e que dar cor a pag -->
   
-  <h1> O Html </h1> <!-- H1 tag ou título do conteúdo e a header que usamos para titular a nossa pag -->
-      <p> Mas o que significa HTML? Ele é a sigla do inglês Hypertext Markup Language, que pode ser traduzido como Linguagem de Marcação de Hipertexto.
-    <br>  <!-- essa e a tag responsavel por saltar linhas -->
-    A maioria das pessoas já viram ou ouviram falar sobre ele, mas não sabem o que de fato ele significa </p> <!-- p e a tag na qual a usamos para escrever os paragrafos -->
+  <header>
+    <h1> Meu site</h1>
+    <i id="burgue" class="material-symbols-outlined" onclick="clickMenu()">menu</i>
+    <menu id="itens">
+        <ul>
+            <li><a href="#">Opção 1</a></li>
+            <li><a href="#">Opção 2</a></li>
+            <li><a href="#">Opção 3</a></li>
+            <li><a href="#">Opção 4</a></li>
+            <li><a href="#">Opção 5</a></li>
+        </ul>
+    </menu>
+</header>
+   
 
-    <h2> Oque e? </h2> <!-- a tag h2 e um dos heades no qual e utilizado como subtitulo para organização do texto -->
-    
+    <main>
+      <article>
+        <h2> Oque e? </h2> 
    <p> Ele é o responsável por mostrar ao navegador como um conteúdo deve estar estruturado. No caso, é uma linguagem que pega o conteúdo “cru” e organiza na tela.
       <br> Sem o HTML, a web seria uma espécie de TXT básico, sem a presença de nenhum link sequer.
       <br> Se a página tem imagens, é ele que especifica onde e como elas serão apresentadas. 
@@ -27,13 +40,14 @@
         <ul> <li> Imagens; </li>
              <li> Sons; </li>
              <li> videos; </li>
-             </ul> <!-- essa e a tag utilizada para as lista não ordenadas -->
-       O HTML também é uma linguagem e você <b> utiliza regras para organizar aquilo que quer dizer </b> <!-- e utilizada para destacar palavras em um resumo deixando ela em negrito porem uma tag obsoleta -->
+             </ul> 
+       O HTML também é uma linguagem e você <b> utiliza regras para organizar aquilo que quer dizer </b> 
+
         e o que a página irá mostrar. 
          <br> Essas regras e elementos semânticos do HTML são chamados de Tags. <br>
              As Tags são usadas para formar qualquer objetivo identificável, como: 
            <ol>
-              <li> Listas </li> <!-- é usado para representar um item que faz parte de uma lista. Este item deve estar contido em um elemento pai: uma lista sendo ela uma lista ordenada ou não ordenada -->
+              <li> Listas </li>
               <li> Paragrafos </li>
               <li> Campos de formulários</li> 
               <li> videos </li>
@@ -81,5 +95,7 @@
      </p>
  </body>
 
+</main>
+</article>
 
 </html>
