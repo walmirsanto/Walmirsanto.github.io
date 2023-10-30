@@ -21,7 +21,7 @@ body{
 .container{
    width: 80%;  /*width e oque define a largura de um elemento  */
    height: 80vh; /*Define a altura de um elemente especifico */
-   display: flex; /*Todo elemento do html tem o seu display. Alguns em line e outros em blocos. Nesse caso o display flex e utilizado para organizar os elementos em forma responsiva */
+   display: flex; /*Todo elemento do html tem o seu display. Alguns em line e outros em blocos. Nesse caso o display flex e utilizado para organizar os elementos em forma responsiva */  
    box-shadow: 5px 5px 10px 5px rgba(0,0,0, .212);
 
 }
