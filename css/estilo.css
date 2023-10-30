@@ -3,15 +3,14 @@
 
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0; 
+    padding: 0;  
     box-sizing: border-box;
-    
 }
 
 body{
-    margin:0;
-    background-color: #6c63ff;
+    margin-top: 15px; /*A margin toop e usada para cria um espaço na parte cima do elemento fora, fora quaisquer borda definina */
+    background-color: #6c63ff; /*O background-color e oque define a cor de fundo do elemento pre estabelecido*/
     
 }
 

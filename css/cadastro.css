@@ -1,26 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100;200;300;400;500;600&display=swap');
 
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+    margin: 0; /*As margins CSS são usadas para criar um espaço ao redor dos elementos, fora de quaisquer bordas definidas */
+    padding: 0;  /* A propiedade padding define uma distancia entre os conteudos de um elemento e suas bordas.nesse caso estou dizendo que os meus conteudo não terão distancia logo e 0*/
+    box-sizing: border-box;/* O box-sizing e uma propiedade na qual não muda os valores ja definido. Por exemplo se eu tenho uma div com valore 40px por 40px , se eu adiciono um "padding:10px 20px" a nossa div teria 60px de largura , porque?  como atribuimos 10pxs para o padding-left e right, esses valores são somados a largura ja estabelecida */
+
+    font-family: 'Inter', sans-serif; /*Comando que define a fonte que sera usada em nosso site como esta definida em em todos os elementos do nosso site atraves do '*' logo por definição sera o font-family a ser usado*/
 }
 
-
+/* */
 body{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #0c0ce94d;
+    width: 100%; /*width e oque define a largura de um elemento  */
+    height: 100vh;/*Define a altura de um elemente especifico */
+    display: flex;  /*Todo elemento do html tem o seu display. Alguns em line e outros em blocos. Nesse caso o display flex e utilizado para organizar os elementos em forma responsiva */
+    justify-content: center; /* Indica como os elementos filhos serão alinhados horizontalmente no espaço*/
+    align-items: center; /* Alinha os itens todos no centro*/
+    background: #0c0ce94d; /*defini a cor de fundo do elemento */
 }
 
 .container{
-   width: 80%;
-   height: 80vh;
-   display: flex;
+   width: 80%;  /*width e oque define a largura de um elemento  */
+   height: 80vh; /*Define a altura de um elemente especifico */
+   display: flex; /*Todo elemento do html tem o seu display. Alguns em line e outros em blocos. Nesse caso o display flex e utilizado para organizar os elementos em forma responsiva */
    box-shadow: 5px 5px 10px 5px rgba(0,0,0, .212);
 
 }
