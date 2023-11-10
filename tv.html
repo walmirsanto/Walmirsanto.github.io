@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/tv.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+ <div class="tv-container">
+    <div class="menu">
+        
+        <div class="controle">
+            <button onclick="tv.liga()" class="power"> <i class="fa fa-power-off"></i> </button>
+            <button onclick="myFunction2()" class="mais"> <i class="fa fa-plus"> </i></button>
+            <button onclick="myFunction3()" class="menos"> <i class="fa fa-minus"></i> </button>           
+
+            
+            <button onclick="anterior()" class="anterior"> <i class="fa fa-chevron-left"></i> </button>
+            <button onclick="proximo()" class="proximo"> <i class="fa fa-chevron-right"></i> </button>
+
+           <p>SKY</p>
+        </div>
+    
+    </div>
+    <div class="tv">
+        <iframe id="myFrame" width="100%" height="600" src="https://www.youtube.com/embed/8bvY-YpAeQs" title="VINI JR CRAVA, RODRYGO FAZ GOLAÇO E REAL SE CLASSIFICA! REAL MADRID 3 X 0 BRAGA | CHAMPIONS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+     
+ </div>
+
+    <!-- <form action="#" id="tv">
+        <input type="submit" value="aumentar" onclick="jsExterno()"> 
+        <button onclick="jsExterno()"></button>
+        <button onclick="tv.aumentaVol()"></button>
+        <input type="submit" value="aumenta" onclick="tv.mostraVol()">
+
+    </form> -->
+
+    <script src="../walmirsanto.github.io/js/tv.js"> </script>
+</body>
+</html>

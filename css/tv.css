@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aquamarine;
+    margin: 0;
+}
+
+.tv-container{
+   width: 90%;
+   height:700px ;
+   margin: auto;
+   background-color: #fff;
+}
+
+.menu{
+    width: 30%;
+    float: left;
+}
+.tv{
+    width: 70%;
+    float: left;
+    background-color: black;
+}
+
+.controle{
+    width: 100px;
+    height: 200px;
+    background-color: black;
+    border-radius: 6px;
+    margin-left: 6px;
+    margin-top: 10px;
+
+}
+.controle button{
+    display: inline-block;
+    padding: 6px;
+    margin-bottom: 5px;
+
+}
+
+.power{
+    background-color: red;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    padding-top: 80%;
+    padding-left: 30%;
+}
