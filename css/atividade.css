@@ -8,21 +8,30 @@ h1{
     text-align: center;
 }
 .container{
-    min-height: 100vh;
-    display: inline-block;
-    align-items: center;
-    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
     background-color: #EFEFEf;
     font-family: 'Inter' , sans-serif;
     padding: 0 35px;
+}
+
+.carousel{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0;
 }
 
 
 
 
 
+
 .carousel :where(.card, .img){
-    display: flex;
+    display: contents;
     align-items: center;
     justify-content: center;
     
@@ -37,15 +46,12 @@ h1{
     display: inline-block;
     cursor: pointer;
     align-items: center;
-    padding-right: 4px;
-    margin-bottom: 8px;
     transition: 0.3s;
-    margin-left: 40px;
+    margin-bottom: 7px;
 }
 
 .card:hover{
-   width: 360px;
-   height: 360px;
+
    transition: 0.3s;
 }
 
@@ -70,4 +76,9 @@ h1{
   color:#6a6d78;
   font-size: 1.31rem; 
   align-items: center;
+}
+
+@media screen and (max-width:901px){
+    
+
 }
