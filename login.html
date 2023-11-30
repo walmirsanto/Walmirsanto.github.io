@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login projeto</title>
+    <link rel="stylesheet" href="css/login.css">
+    <script src="js/menuPrinci.js"></script>
+</head>
+<body>
+    <div id="menuPrincipal" class="menu"></div>
+
+    
+<div class="main-login">
+    <div class="left-login">
+       <h1>Faça o login <br> E entre para familia IZA imports</h1> 
+       <img src="https://raw.githubusercontent.com/Wal221/imagens/3520cbb2d3df884c9d83096f1cab88d6150f2c40/niche-service-marketplace-animate.svg" alt="jcs"> 
+    </div>
+    <div class="right-login">
+        <div class="card-login">
+             
+           <h1>LOGIN</h1>
+
+            <div class="text-field">
+                <label for="usuario">Usuario</label>
+                <input type="text" name="usuario" id="usuario" placeholder="Usuário" required>
+            </div>
+            <div class="text-field">
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" placeholder="Senha" id="senha" required>
+            </div>  
+            <button mat-button  class="btn-button" routerLink="">login  </button>
+           
+            <div class="icons-google">
+                <button mat-button class="icon-google"> <img src="https://raw.githubusercontent.com/Wal221/imagens/a2cd4a2b7851bf5a5f38d4b5a1ff0dcb8634924a/icons8-google-logo.svg" alt="image google" class="img-google"></button>
+
+                <button mat-button class="icon-google"> <img src="https://raw.githubusercontent.com/Wal221/imagens/041c0c8f6b64fc4fa6c3ae92870c0989a3d4884a/icons8-facebook.svg" alt="icon facebook" class="img-facebook"></button>
+
+                <button mat-button class="icon-google"> <img src="https://raw.githubusercontent.com/Wal221/imagens/c863dfee323d26d45262479975938eae96954af8/icons8-mac-os.svg" alt="image google" class="img-apple"></button>
+            </div>
+                  <p class="link-cadastro">novo na IZAmports? <a routerLink="/cadastro">cadastra</a></p>
+        </div>
+    </div>
+</div>
+
+    
+</body>
+</html>

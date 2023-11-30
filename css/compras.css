@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100;200;300;400;500;600&family=Noto+Sans:wght@100;200;300;700&display=swap');
+
+*{
+    font-family: 'Noto sans', sans-serif;
+}
+
+section{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 85px);
+}
+
+.left-side{
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+}
+
+.item{
+    align-items: flex-end;
+}
+
+.select-image{
+    max-width: 400px;
+}
+.select-image{
+    width: 100%;
+    border-radius: 10px;
+}
+.thumbnails{
+    display: flex;
+    max-width: 400px;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+
+
+.thumbnail img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.right-side{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-side  h1{
+    color:hsl(26, 100%, 55%);
+
+}
+.right-side  h3{
+    color:hsl(26, 100%, 55%);
+
+}
+
+.right-side p{
+    color: hsl(219, 9%, 45%);
+    font-size: 14px;
+
+}
+
+.price{
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.off{
+    font-size: 12px;
+    color: rgb(120, 118, 118);
+}
+
+.amount{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: rgb(120, 118, 118); 
+    padding: 10px 20px;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.amount span{
+   font: 700;
+   font: 12px; 
+}
+
+.minus, .plus{
+    cursor: pointer;
+}
+
+.button{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: hsl(26, 100%, 55%);
+    padding: 20px 35px;
+}

@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100;200;300;400;500;600&family=Noto+Sans:wght@100;200;300;700&display=swap');
+
+
+*{
+    font-family: 'Noto Sans', sans-serif;
+}
+.card-home{
+    display: inline-block ;
+    width:100% ;
+    padding: 0;
+ 
+   
+ }
+ .containe-cards{
+  margin: 0;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+ 
+ 
+ }
+ h4{
+   display: block;
+   margin-block-start: 1.33em;
+   margin-block-end: 1.33em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+   font-size: 28px;
+   text-transform: uppercase;
+   font-weight: 700;
+ }
+ .example-card{
+   display: inline-block;    
+   padding: 26px;
+   width: 240px;
+   height: 350px;
+   text-align: center;
+   background-color: aliceblue;
+   justify-content: space-between;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   margin-left: 6px;
+   margin-bottom: 8px;
+   
+ }
+ .example-header-image{
+    align-items: center;
+ }
+ .example-card > img{
+     display: block;
+   width: 180px;
+   margin-top: 16px;
+    
+ }
+ 
+ .example-card > img:hover{
+   cursor: pointer;
+   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+   border-radius: 8px;
+ }
+ .example-card h6{
+   font-size: small;
+ }
+ .example-card p{
+   color: rgb(209, 61, 61);
+ }
+ .produto-info{
+   margin: 0;
+   padding: 0;
+ }
+ .descont{
+   font-size: 3mm;
+   text-align: left;
+   
+ }
+ .money{
+   text-align: left;
+   font-size: smaller;
+   margin: 0;
+ }
+ 
+ .valo-produto{
+   font-size: 6mm;
+   text-align: left;
+ }
+ 
+ @media only screen and (max-width: 756px){
+   .card-home{
+     justify-content: space-between;
+     display: inline-block ;
+     width:100% ;
+     padding: 0;
+     flex-direction: row-reverse;
+    
+  }
+  }

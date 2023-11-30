@@ -6,13 +6,13 @@
 
 body{
     margin-top: 15px; /*A margin toop e usada para cria um espaço na parte cima do elemento fora, fora quaisquer borda definina */
-    background-color: #6c63ff; /*O background-color e oque define a cor de fundo do elemento pre estabelecido*/
+    background-color: #d6d5d5; /*O background-color e oque define a cor de fundo do elemento pre estabelecido*/
     
 }
 
 
 header{
-    background-color: #6c63ff;
+    background-color: #d5d5d6;
     padding: 0 20px;
     justify-content: space-between;
     align-items: center;

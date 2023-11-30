@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100;200;300;400;500;600&family=Noto+Sans:wght@400;700&display=swap');
+
+
+.main-login{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(243, 236, 236);  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.left-login{
+    width: 50vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.left-login > h1{
+    color: black;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 3vh;
+    
+}
+.left-login > img{
+    width: 35vw;
+    height: 70vh;
+ }
+
+.right-login{
+    width: 70vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background-color:aliceblue ;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.card-login > h1{
+    color: rgb(23, 22, 20);
+    font-weight: 800;
+    margin: 0;
+}
+
+.text-field{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px;
+}
+.text-field > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #e1dee4;
+    color: black;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.text-field > input::placeholder{
+    color: #86878794;
+}
+.text-field > label{
+   color: #000000de; 
+   margin-bottom: 10px;
+}
+
+.btn-button{
+    background-color: black;
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border:none ;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 4px;
+    box-shadow: 0px 10px 40px -12px  #86878794;
+    
+}
+
+.icons-google{
+    justify-content: space-between;
+    display: flex;
+    width: auto;
+
+}
+
+.icon-google{
+    border-radius: 0;
+    width: auto;
+    margin: 15px;
+    border:#000 solid 1px;
+}
+
+
+.img-google{
+    width: 30px;
+}
+
+.img-facebook{
+  width: 35px;
+  padding-top: 0.5mm;
+}
+.img-apple{
+    width: 30px;
+}
+
+.link-cadastro{
+    margin: 0;
+    color:rgb(195, 194, 194);
+    font-size: smaller;
+}
+
+
+@media only sreen and (max-width: 950px){
+    .card-login{
+        width: 85%;
+
+    }
+}
+
+@media only sreen and (max-width: 600px){
+
+}
+
+
+
+
+
+
